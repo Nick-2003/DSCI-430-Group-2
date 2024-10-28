@@ -1,3 +1,0 @@
-q1: modify bar charts to side-by-side bar charts, expand the answer a little bit
-q2: minor edits
-q3: clean up the codes a little bit, and we have the same result
