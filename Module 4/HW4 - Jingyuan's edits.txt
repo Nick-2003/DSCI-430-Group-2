@@ -1,0 +1,5 @@
+q1: modify bar charts to side-by-side bar charts (more intuitive), expand the explanation a little bit
+q2: minor edits
+q3: clean up the codes a little bit, according to teh confusion matrix in assignment 3, the index of FP is [0,1] and the index of FN is [1,0]. You have the opposite in your code so we have different tables. Can you confirm? It doesn't make much sense for men to have lower FDRD but higher FNRD
+q4: write the codes differentlt, again, the fairness metrics are different due to different ways of indexing
+q5: add Q5.1 about the sample size. In q5, it says "we create a new training set by selecting a subset of samples from the original one". We only need to create a new traing set, we can use the original testing set. You don't need to do the train_test_split of balanced_df again in your code.  balanced_df is actually the new training set. Please see my codes, you can reuse y_test, balanced_df is train_df_bal
